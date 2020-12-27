@@ -1,0 +1,16 @@
+#.gitignore在"根目錄"忽略Debug，會忽略根目錄Debug，包括子目錄出現的Debug
+Debug
+
+# 忽略.vs
+.vs
+
+# 忽略C_Primer .vcxproj.
+C_Primer/*.vcxproj.*
+
+# 忽略C_Primer .vcxproj
+C_Primer/*.vcxproj
+
+
+# 忽略所有目錄的 .vcxproj.
+*/*.vcxproj.*
+*/*.vcxproj
